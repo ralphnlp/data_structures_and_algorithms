@@ -90,15 +90,10 @@ public:
     
     void transerve(){
         Node* p = this->pHead;
-        cout << "the_values =" << '\t';
         while(p!=NULL){
-            cout << p->getVaulue() << '\t';
+            cout << " -> " << p->getVaulue();
             p = p->getpNext();
         }
         cout << '\n';
     }
 };
-
-int main(){
-    return 0;
-}
